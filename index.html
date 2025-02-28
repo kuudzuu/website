@@ -1,2 +1,123 @@
-heya this is a test\
-so is this
+<!DOCTYPE html>
+<html>
+<head>
+    <!--------------------- Head --------------------->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title id="Title">Invasive Website</title>
+    <link rel="icon" type="image/x-icon" href="./img/nav/favicon.png">
+
+    <link href="/css/global_down.css" rel="stylesheet">
+    <link href="/css/index.css" rel="stylesheet">
+</head>
+<body>
+<!--------------------- Body --------------------->
+<div id="TransitionaryGif">
+    <img id="TransitionBG" src="/img/nav/transition.gif">
+    <img id="Transition" src="/img/nav/transition.gif">
+    <img id="Blink1" src="/img/nav/blink1.gif">
+    <img id="Blink2" src="/img/nav/blink2.gif">
+</div>
+
+<div id="iframeHolder">
+    <iframe id="iframe" frameBorder="0"></iframe>
+</div>
+
+
+<div id="NavShading">
+    <div id="Navbar">
+        <div id="NavContent">
+            <a id="ThoughtsLink" onclick="navClick('Thoughts')" class="NavIcon">
+                <img id="ThoughtsPic" src="/img/nav/thoughts_nav.png" class="NavIcon">
+            </a>
+
+            <a id="WritingLink" onclick="navClick('Writing')" class="NavIcon">
+                <img id="WritingPic" src="/img/nav/writing_nav.png" class="NavIcon">
+            </a>
+
+            <a id="ArtLink" onclick="navClick('Art')" class="NavIcon">
+                <img id="ArtPic" src="/img/nav/art_nav.png" class="NavIcon">
+            </a>
+
+            <a id="HomeLink" onclick="navClick('Title')" class="NavIcon">
+                <img id="HomePic" src="/img/nav/home_nav.png" class="NavIcon">
+            </a>
+
+            <a id="AccretionLink" onclick="navClick('Accretion')" class="NavIcon">
+                <img id="AccretionPic" src="/img/nav/accretion_nav.png" class="NavIcon">
+            </a>
+
+            <a id="RunoffLink" onclick="navClick('Runoff')" class="NavIcon">
+                <img id="RunoffPic" src="/img/nav/runoff_nav.png" class="NavIcon">
+            </a>
+
+            <a id="CommunityLink" onclick="navClick('Community')" class="NavIcon">
+                <img id="CommunityPic" src="/img/nav/community_nav.png" class="NavIcon">
+            </a>
+        </div>
+    </div>
+</div>
+
+<img id="ArrowDown" onclick="goToBottom()" src="/img/nav/arrow_down.png">
+<img id="ArrowUp" onclick="goToTop()" src="/img/nav/arrow_up.png">
+
+
+<!--
+<div id="Navbar">
+  <div id="NavWhiteLine"></div>
+
+    <div id="NavContent" class="flex-container">
+      <img id="NavLeft" src="/img/nav/nav_left.jpg" class="flex-item">
+      <div class="row">
+
+        <a id="DownArrow" onclick="goToBottom()" class="flex-item">
+          <img id="DownArrowPic" src="/img/nav/down_arrow.png" class="flex-item">
+        </a>
+
+        <a id="ThoughtsLink" onclick="navClick('Thoughts')" class="flex-item">
+          <img id="ThoughtsPic" src="/img/nav/thoughts_nav.png" class="flex-item">
+        </a>
+
+        <a id="WritingLink" onclick="navClick('Writing')" class="flex-item">
+          <img id="WritingPic" src="/img/nav/writing_nav.png" class="flex-item">
+        </a>
+
+        <a id="ArtLink" onclick="navClick('Art')" class="flex-item">
+          <img id="ArtPic" src="/img/nav/art_nav.png" class="flex-item">
+        </a>
+
+        <a id="HomeLink" onclick="navClick('Title')" class="flex-item">
+          <img id="HomePic" src="/img/nav/home_nav.png" class="flex-item">
+        </a>
+
+        <a id="AccretionLink" onclick="navClick('Accretion')" class="flex-item">
+          <img id="AccretionPic" src="/img/nav/accretion_nav.png" class="flex-item">
+        </a>
+
+        <a id="RunoffLink" onclick="navClick('Runoff')" class="flex-item">
+          <img id="RunoffPic" src="/img/nav/runoff_nav.png" class="flex-item">
+        </a>
+
+        <a id="CommunityLink" onclick="navClick('Community')" class="flex-item">
+          <img id="CommunityPic" src="/img/nav/community_nav.png" class="flex-item">
+        </a>
+
+        <a id="UpArrow" onclick="goToTop()" class="flex-item">
+          <img id="UpArrowPic" src="/img/nav/up_arrow.png" class="flex-item">
+        </a>
+
+      </div>
+      <img id="NavRight" src="/img/nav/nav_right_purple.jpg" class="flex-item">
+    </div>
+  </div>
+-->
+
+<!-------------------- Scripts ------------------>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="/js/global_down.js"></script>
+<script src="/js/index.js"></script>
+
+</body>
+
+</html>
