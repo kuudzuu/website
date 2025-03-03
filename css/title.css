@@ -1,0 +1,45 @@
+/* All space */
+body
+{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  overflow: hidden;
+}
+
+#PageContent {
+  overflow-y: hidden;
+}
+
+/* Website intro */
+#TitleContent
+{
+  margin: 0;
+  padding: 0;
+  
+  background-image: url("/img/title/bg.PNG");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: black;
+  
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 5;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#KuudzuLogo
+{
+  width: 50%;
+  height: auto;
+  
+  display: flex;
+  
+  z-index: 6;
+}

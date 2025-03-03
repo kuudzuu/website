@@ -1,0 +1,243 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  
+  overflow: hidden;
+  
+  background-color: black;
+  color: white;
+}
+
+/* Transition */
+#TransitionaryGif {
+  display: inline;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  
+  z-index: 9999999999999999999;
+  pointer-events: none;
+  image-rendering: pixelated;
+}
+#Blink1 {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  
+  z-index: 9999999999999999999;
+  pointer-events: none;
+}
+#Blink2 {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  
+  z-index: 9999999999999999999;
+  pointer-events: none;
+}
+#TransitionBG {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  
+  z-index: 999999999;
+  pointer-events: none;
+  background-image: url("img/nav/transition_bg.png"); 
+}
+#Transition {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  
+  z-index: 9999999999;
+  pointer-events: none;
+}
+
+/* iframe lmaoooo */
+#iframe
+{
+  margin: 0;
+  padding: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  
+  overflow: hidden;
+}
+
+/* Navbar */
+#NavShading {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  min-width: 100vw;
+  max-width: 100vw;
+  height: 190px;
+  min-height: 190px;
+  
+  z-index: 99;
+  background-image: url('/img/nav/nav_bg.png');
+  background-size: auto 190px;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0);
+  pointer-events: none;
+}
+#Navbar {
+  position: fixed;
+	bottom: 0;
+  height: 135px;
+  min-height: 135px;
+  width: 100vw;
+  min-width: 100vw;
+  max-width: 100vw;
+  
+  justify-content: center;
+  align-items: center;
+  
+  z-index: 99;
+  overflow: hidden;
+  background-image: url('/img/nav/nav_magenta.png');
+  background-size: auto 135px;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0);
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+#NavContent
+{
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  height: 50.75%;
+  width: 100%;
+  
+  justify-content: center;
+  align-items: center;
+  image-rendering: auto;
+}
+
+/* Navbar 
+#Navbar
+{
+  position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 7%;
+	
+	color: #36593d;
+	z-index: 9999999999;
+	background-image: url("/img/nav/navbar_bg.png");
+  background-position: center;
+  background-size: 100% 100%;
+}
+#NavLeft {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+#NavRight {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+#NavContent
+{
+  margin: 0;
+  top: 0%;
+  height: 100%;
+  
+  z-index: 2;
+}
+#NavWhiteLine
+{
+  margin: 0;
+  top: 0;
+  height: 2%;
+  width: 100%;
+  
+  z-index: 3;
+  background-color: #FFFFFF;
+}
+*/
+
+/* Icons */
+.NavIcon {
+  height: 100%;
+  width: auto;
+  pointer-events: auto;
+}
+#ThoughtsPic
+{
+  cursor: pointer;
+  filter: brightness(0.55);
+}
+#WritingPic
+{
+  cursor: pointer;
+  filter: brightness(0.7);
+}
+#ArtPic
+{
+  cursor: pointer;
+  filter: brightness(0.85);
+}
+#HomePic
+{
+  background-color: rgba(255, 255, 255, 0.2); 
+  cursor: pointer;
+  filter: brightness(1.25);
+}
+#AccretionPic
+{
+  cursor: pointer;
+  filter: brightness(0.85);
+}
+#RunoffPic
+{
+  cursor: pointer;
+  filter: brightness(0.7);
+}
+#CommunityPic
+{
+  cursor: pointer;
+  filter: brightness(0.55);
+}
+
+#ArrowDown {
+  position: fixed;
+  left: 0;
+  margin-left: 10px;
+  bottom: 0;
+  margin-bottom: 20px;
+  height: 220px;
+  
+  transition: transform 0.3s ease-in-out;
+  
+  z-index: 0;
+  cursor: pointer; 
+}
+#ArrowUp {
+  position: fixed;
+  right: 0;
+  margin-right: 10px;
+  bottom: 0;
+  margin-bottom: 20px;
+  height: 220px;
+  
+  transition: transform 0.3s ease-in-out;
+  
+  z-index: 0;
+  cursor: pointer; 
+}

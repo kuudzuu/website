@@ -1,0 +1,49 @@
+#AllContainer {
+  height: 100vh;
+  min-height: 100vh;
+  max-height: 100vh;
+  width: 100vw;
+  min-width: 100vw;
+  max-width: 100vw;
+  
+  overflow: hidden;
+  position: absolute;
+}
+#PageContainer {
+  height: 93vh;
+  min-height: 93vh;
+  max-height: 93vh;
+  width: 100vw;
+  min-width: 100vw;
+  max-width: 100vw;
+  
+  display: block;
+  position: absolute;
+  top: 0;
+  
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+#NavSpacer {
+  height: 7vh;
+  min-height: 7vh;
+  max-height: 7vh;
+  width: 100vw;
+  min-width: 100vw;
+  max-width: 100vw;
+  
+  position: absolute;
+  bottom: 0;
+  padding: 0;
+  margin: 0;
+  
+  background: rgba(0, 0, 0, 0);
+}
+#Transition {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  
+  z-index: 999999999999999999;
+}
