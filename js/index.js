@@ -47,7 +47,7 @@ function updateSource(source){
   scrolled(0);
   switch (source) {
     case "Title":
-      src=(ORIENTATION === "Landscape" ? "/title_down.html": "/title_up.html");
+      src=(ORIENTATION === "Landscape" ? "/title.html": "/title.html");
       document.getElementById("Title").innerHTML = "Invasive Website";
       document.getElementById('Navbar').style.backgroundImage = "url(\"/img/nav/nav_magenta.png\")";
       document.getElementById("HomePic").style.backgroundColor = background_color;
@@ -55,7 +55,7 @@ function updateSource(source){
       deactivateArrows();
       break;
     case "Art":
-      src=(ORIENTATION === "Landscape" ? "/art_down.html": "/art_up.html");
+      src=(ORIENTATION === "Landscape" ? "/art.html": "/art.html");
       document.getElementById("Title").innerHTML = "Invasive Artworks";
       document.getElementById('Navbar').style.backgroundImage = "url(\"/img/nav/nav_purple.png\")";
       document.getElementById("ArtPic").style.backgroundColor = background_color;
@@ -63,7 +63,7 @@ function updateSource(source){
       activateArrow("ArrowDown");
       break;
     case "Community":
-      src=(ORIENTATION === "Landscape" ? "/community_down.html": "/community_up.html");
+      src=(ORIENTATION === "Landscape" ? "/community.html": "/community.html");
       document.getElementById("Title").innerHTML = "Invasive Community";
       document.getElementById('Navbar').style.backgroundImage = "url(\"/img/nav/nav_cyan.png\")";
       document.getElementById("CommunityPic").style.backgroundColor = background_color;
@@ -71,7 +71,7 @@ function updateSource(source){
       activateArrow("ArrowDown");
       break;
     case "Writing":
-      src=(ORIENTATION === "Landscape" ? "/writing_down.html": "/writing_up.html");
+      src=(ORIENTATION === "Landscape" ? "/writing.html": "/writing.html");
       document.getElementById("Title").innerHTML = "Invasive Writing";
       document.getElementById('Navbar').style.backgroundImage = "url(\"/img/nav/nav_blue.png\")";
       document.getElementById("WritingPic").style.backgroundColor = background_color;
@@ -79,7 +79,7 @@ function updateSource(source){
       deactivateArrows();
       break;
     case "Thoughts":
-      src=(ORIENTATION === "Landscape" ? "/thoughts_down.html": "/thoughts_up.html");
+      src=(ORIENTATION === "Landscape" ? "/thoughts.html": "/thoughts.html");
       document.getElementById("Title").innerHTML = "Invasive Thoughts";
       document.getElementById("Navbar").style.backgroundImage = "url('img/nav/nav_yellow.png')";
       document.getElementById("ThoughtsPic").style.backgroundColor = background_color;
@@ -87,7 +87,7 @@ function updateSource(source){
       activateArrow("ArrowDown");
       break;
     case "Accretion":
-      src=(ORIENTATION === "Landscape" ? "/accretion_down.html": "/accretion_up.html");
+      src=(ORIENTATION === "Landscape" ? "/accretion.html": "/accretion.html");
       document.getElementById("Title").innerHTML = "Invasive Accretion";
       document.getElementById('Navbar').style.backgroundImage = "url(\"/img/nav/nav_coral.png\")";
       document.getElementById("AccretionPic").style.backgroundColor = background_color;
@@ -95,7 +95,7 @@ function updateSource(source){
       deactivateArrows();
       break;
     case "Runoff":
-      src=(ORIENTATION === "Landscape" ? "/runoff_down.html": "/runoff_up.html");
+      src=(ORIENTATION === "Landscape" ? "/runoff.html": "/runoff.html");
       document.getElementById("Title").innerHTML = "Invasive Runoff";
       document.getElementById('Navbar').style.backgroundImage = "url(\"/img/nav/nav_orange.png\")";
       document.getElementById("RunoffPic").style.backgroundColor = background_color;

@@ -1,0 +1,68 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  
+  z-index: -10;
+  background-image: url("/img/writing/bg.png");
+  background-position-x: center;
+  background-position-y: 40%;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-color: black;
+  color: white;
+}
+
+/* Tree Trunk (LEFT) ----------------------------------------------------------------- */
+#TreeTrunkContainer {
+  display: flex;
+  position: absolute;
+  width: 30%;
+  height: 100%;
+  left: 0;
+  
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  pointer-events: none;
+}
+#TreeTrunk {
+  display: block;
+  position: absolute;
+  top: 0;
+  width: auto;
+  height: 200%;
+  
+  pointer-events: none;
+}
+
+/* Writing (RIGHT) ----------------------------------------------------------------- */
+#WritingContainer
+{
+  display: flex;
+  position: absolute;
+  padding: 0;
+  right: 0;
+  width: 70%;
+  height: 100%;
+  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#WritingBlock
+{
+  display: block;
+  position: absolute;
+  margin: 10% 15% 10%;
+  right: 0;
+  width: 80%;
+  height: 80%;
+  
+  overflow-y: scroll;
+  
+  background-color: rgba(0, 0, 0, .7);
+  border: 2px solid #0000AA;
+}

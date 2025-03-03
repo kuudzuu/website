@@ -1,0 +1,148 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  background-image: url("/img/thoughts/bg.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100% auto;
+  background-color: black;
+  color: white;
+}
+
+/* Header --------------------------------------------------------------- */
+#DisclaimerContainer
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 84vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 0%;
+  display: flex;
+  font-family: "Georgia", serif;
+  font-size: 16px;
+}
+#DisclaimerText
+{
+  min-width: 17vw;
+}
+
+/* Ears --------------------------------------------------------------- */
+#EarLeft4 {
+  height: 8vh;
+}
+#EarLeft3 {
+  height: 11vh;
+}
+#EarLeft2 {
+  height: 14vh;
+}
+#EarLeft1 {
+  height: 17vh;
+}
+#EarLeft {
+  height: 20vh;
+}
+#EarRight {
+  height: 20vh;
+}
+#EarRight1 {
+  height: 17vh;
+}
+#EarRight2 {
+  height: 14vh;
+}
+#EarRight3 {
+  height: 11vh;
+}
+#EarRight4 {
+  height: 8vh;
+}
+
+/* Sticky --------------------------------------------------------------- */
+#HorizontalSticky
+{
+  width: 96.1%;
+  min-width: 96.1%;
+  margin: 2% 0 -1% 2%;
+  border: 1px solid #203d00;
+  justify-content: center;
+  display: flex;
+  z-index: 999999;
+  position: sticky;
+}
+.Sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+#Horizontal
+{
+  width: 100%;
+  min-width: 100%;
+  border: 1px solid #203d00;
+  justify-content: center;
+  display: flex;
+  z-index: 999999;
+}
+
+/* Import --------------------------------------------------------------- */
+#ProcessingContainer
+{
+  margin: 2%; 
+  width: 96%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#ProcessingImport
+{
+  margin-top: 1.5%;
+  margin-left: 2%;
+  margin-right: 1.8%;
+  white-space: pre-wrap;
+  color: white;
+  font-family: "Georgia", serif;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+/* Text --------------------------------------------------------------- */
+#LeftJust
+{
+  margin-top: -20px;
+  margin-bottom: -20px;
+  margin-left: -0.5px;
+  margin-right: 20%;
+  padding: 0%;
+  justify-content: flex-start;
+  display: flex;
+  text-align: left;
+  color: #FFF;
+  border-left: 2px solid #203d00;
+  background-image: linear-gradient(to right, rgba(60, 60, 0, 0.7), rgba(0, 0, 0, 0));
+  z-index: -1;
+  position: relative;
+  
+}
+#RightJust
+{
+  margin-top: -20px;
+  margin-bottom: -20px;
+  margin-left: 20%;
+  padding: 0%;
+  justify-content: flex-end;
+  display: flex;
+  text-align: right;
+  color: #CCC;
+  border-right: 2px solid #203d00;
+  z-index: -1;
+  position: relative;
+  background-image: linear-gradient(to left, rgba(0, 50, 0, 0.7), rgba(0, 0, 0, 0));
+}
+#TextDiv
+{
+  padding: 20px; 
+}

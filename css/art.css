@@ -1,0 +1,119 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  
+  overflow-x: hidden;
+  
+  z-index: -10;
+  background-image: url("/img/artex/bg.png");
+  background-position-x: center;
+  background-position-y: 40%;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-color: black;
+  color: white;
+}
+.ArtPicture
+{
+  max-height: 75vh;
+  width: auto;
+  
+  border: 1px solid white;
+}
+.TexturePicture
+{
+  max-height: 40vh;
+  width: auto;
+  border: 1px solid white;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 3px;
+}
+hr
+{
+  border: 1px solid white;
+}
+
+/* Main content ------------------------------------------------ */
+#BlackBox
+{
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6%;
+  width: 92%;
+  
+  overflow: hidden;
+  
+  background-color: rgba(0, 0, 0, .7);
+  border: 2px solid #20084b;
+}
+#ArtContent
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  
+  font-family: "Lucida Console", monospace;
+}
+
+/* Transitions ------------------------------------------------ */
+#TransitionsContainer {
+  display: flex;
+  margin: 2% auto 0;
+  width: 100%;
+  height: 20vh;
+  
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  gap: 70px;
+  
+  font-family: "Lucida Console", monospace;
+}
+#ArtTransition {
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+#TextureTransition {
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  
+  filter: brightness(0.3);
+  cursor: pointer;
+}
+
+/* Transitions ------------------------------------------------ */
+#FingersTopLeft {
+  position: absolute;
+  margin-left: -4vw;
+  margin-top: -5vh;
+  height: 25vh;
+}
+#FingersTopRight {
+  position: absolute;
+  margin-left: 79.4vw;
+  margin-top: -8.8vh;
+  height: 30vh;
+}
+#FingersBottomLeft {
+  display: none;
+  position: absolute;
+  margin-top: -20.2vh;
+  margin-left: -4vw;
+  height: 25vh;
+}
+#FingersBottomRight {
+  display: none;
+  position: absolute;
+  margin-top: -30vh;
+  margin-left: 84.8vw;
+  height: 25vh;
+}

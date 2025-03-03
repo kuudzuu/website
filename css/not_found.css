@@ -1,0 +1,38 @@
+body {
+  background: black;
+}
+
+a {
+  text-decoration: none
+}
+#NotFoundContent {
+  overflow: hidden; 
+}
+#Warning {
+  color: #041c2b;
+  text-shadow: -1px -1px 0px #0d591f, 1px -1px 0px #0d591f, -1px 1px 0px #0d591f, 1px 1px 0px #0d591f;
+  padding: 0;
+  margin-bottom: -3vh;
+  font-size: 52px;
+  cursor: pointer;
+}
+#Face {
+  width: 100vw;
+  height: 90vh;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.Eye {
+  height: 150px;
+  padding: 1vw;
+  cursor: pointer;
+}
+#LeftEye {
+  transform: rotate(-2deg); 
+}
+#RightEye {
+  transform: rotate(4deg); 
+}

@@ -1,5 +1,5 @@
 // ------------------------------------------------------------------------ VARIABLES
-let GLOBALS = getJSON("/json/global_down.json"); // await???
+let GLOBALS = getJSON("/json/global.json"); // await???
 // ------------------------------------------------------------------------ FUNCTIONS
 // ---------------------------------------------- public
 function pageInit() {

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <!------------------------------------------ Head ------------------------------------------>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+    
+    <title>Invasive Art</title>
+		<link rel="icon" href="/img/nav/favicon.png">
+
+    <link href="/css/global_down.css" rel="stylesheet">
+		<link href="/css/art_down.css" rel="stylesheet">
+  </head>
+  <!------------------------------------------ Body ------------------------------------------>
+  <body>
+    <div id="TransitionsContainer">
+      <img id="ArtTransition" src="/img/artex/landmarks.png" onclick="loadArt()" class="flex-item">
+      <img id="TextureTransition" src="/img/artex/texture_bin.png" onclick="loadTextures()" class="flex-item">
+    </div>
+  
+		<div id="BlackBox"> <!-- Black colored bg -->
+		  <img id="FingersTopLeft" src="/img/artex/fingers_top_left.png">
+		  <img id="FingersTopRight" src="/img/artex/fingers_top_right.png">
+		  <div id="ArtContent"></div> <!-- Invisible, prevents pictures n such from extending all the way to sides -->
+		  <img id="FingersBottomLeft" src="/img/artex/fingers_bottom_left.png">
+		  <img id="FingersBottomRight" src="/img/artex/fingers_bottom_right.png">
+		</div>
+		
+	<!---------------------------------------- Scripts ----------------------------------------->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/js/global_down.js"></script>
+    <script src="/js/art_down.js"></script>
+  </body>
+</html>

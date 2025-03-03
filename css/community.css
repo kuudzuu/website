@@ -1,0 +1,302 @@
+html {
+  scroll-behavior: smooth; 
+}
+body
+{
+  margin: 0;
+  
+  background-color: black;
+  background-image: url("/img/community/bg.png");
+	background-size: cover;
+	background-position-x: center;
+	background-position-y: 40%;
+	background-attachment: fixed;
+	scroll-behavior: smooth; 
+}
+h1
+{
+  margin-bottom: 0%; 
+  margin-left: 0;
+  margin-right: 0;
+}
+a:link {
+  color: #24ad24;
+  background-color: transparent;
+}
+a:visited {
+  color: #317d31;
+  background-color: transparent;
+}
+a:hover {
+  color: #00ff00;
+  background-color: transparent;
+}
+a:active {
+  color: white;
+  background-color: transparent;
+}
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 1vh;
+}
+
+/* Transparent black box ---------------------------------------------------------------- */
+#BlackBox
+{
+  margin: 2%;
+  padding: 1% 2%;
+  width: 92%;
+
+  color: white;
+  border: 2px solid #00111a;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Top scroller ---------------------------------------------------------------- */
+#ScrollContainer
+{
+  margin: 0 0 0;
+  width: 100%;
+  
+  justify-content: center;
+  align-items: center;
+}
+#ScrollText
+{
+  display: flex;
+  
+  justify-content: center;
+}
+#Markey
+{
+  display: none;
+  
+  font-family: "Courier New", monospace;
+  color: #AAFFAA;
+}
+#MarqueeHr
+{
+  border: 1px dashed white;
+}
+
+/* Quote section ---------------------------------------------------------------- */
+#QuoteContainer
+{
+  margin: 0%;
+  height: auto;
+  
+  justify-content: center;
+  
+  font-family: "Lucida Console", monospace;
+}
+#Blurb
+{
+  margin-top: 0%;
+  display: flex;
+  width: 90%;
+  height: auto;
+  
+  justify-content: center;
+  text-align: center;
+}
+#TitleContainer
+{
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  
+  transform: rotate(-1deg);
+}
+#QuoteOpen
+{
+  margin: 20px 0 15px 19vw;
+  width: 30px;
+  height: 30px;
+}
+#QuoteClose
+{
+  margin: 35px 19vw 0 0;
+  width: 30px;
+  height: 30px;
+}
+
+
+/* Intro section ---------------------------------------------------------------- */
+#SocialContainer
+{
+  padding-bottom: 1.5%;
+  
+  font-family: "Lucida Console", monospace;
+}
+#IntroContainer
+{
+  display: flex;
+  margin-top: 0%;
+  
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  
+}
+#GuestbookPic
+{
+  display: flex;
+  height: auto; 
+  width: 15vw;
+  
+  justify-content: center;
+  align-items: center;
+}
+#SeedboxPic
+{
+  display: flex;
+  height: auto; 
+  width: 12vw;
+  
+  justify-content: center;
+  align-items: center;
+  
+  transform: rotate(-10deg);
+}
+#LinktreePic
+{
+  display: flex;
+  margin-left: 0vw;
+  height: auto; 
+  width: 30vw;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+/* Counter section ---------------------------------------------------------------- */
+#LabelsContainer
+{
+  display: flex;
+  padding-right: 1.5%;
+  
+  justify-content: center;
+  align-items: center;
+  gap: 6vw;
+  
+  z-index: 10;
+  font-weight: bold;
+}
+#VisitorsText
+{
+  color: #317d31;
+}
+#OnlineText
+{
+  color: #076269;
+}
+
+#CountersContainer
+{
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  gap: 4vw;
+  
+  z-index: -1;
+}
+#CounterImport
+{
+  border: 1px solid white; 
+  box-shadow: 2px 3px 2px 2px #0c9ea8, -2px -3px 2px 2px #09823e;
+  z-index: -1;
+}
+
+/* Chat box ---------------------------------------------------------------- */
+#FlowerBoxSpace
+{
+  position: sticky;
+  margin: 1% 0;
+  width: 100%;
+  height: 75vh;
+  
+  align-items: center;
+  justify-content: center;
+  
+  border: 1px solid white; 
+  box-shadow: -4px 6px 2px 2px #065421, 4px -6px 2px 2px #076269;
+}
+#FlowerBox
+{
+  width: 100%;
+  height: 100%;
+  
+  z-index: -1;
+}
+
+/* Buttons ---------------------------------------------------------------- */
+#ButtonsContainer {
+  display: flex;
+  width: 100%;
+  margin: 2% 0 1%;
+  
+  justify-content: center;
+  align-items: center;
+  
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0);
+}
+#Buttons {
+  display: inline-block;
+  padding: 5px;
+  padding-bottom: 2px;
+  width: auto;
+  max-width: 470px;
+  height: auto;
+  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  z-index: 1;
+  border: 5px dashed #00240f; 
+  outline: 2px solid #075c48;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+/* Outreach ---------------------------------------------------------------- */
+#OutreachContainer {
+  display: flex;
+  width: 100%;
+  margin-bottom: 1%;
+  
+  justify-content: center;
+  align-items: center;
+  
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0);
+}
+#Outreach {
+  display: inline-block;
+  padding: 5px;
+  padding-bottom: 2px;
+  width: auto;
+  max-width: 470px;
+  height: auto;
+  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  z-index: 1;
+  border: 5px dashed #FFFFFF; 
+  outline: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.75);
+  
+}
+.Button {
+  width: 81px;
+  height: 33px;
+  min-height: 33px;
+  
+  line-height: 30px;
+}
