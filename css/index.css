@@ -90,7 +90,7 @@ body
   min-height: 190px;
   
   z-index: 99;
-  background-image: url('/img/nav/nav_bg.png');
+  background-image: url('/img/nav/bg/shadow.png');
   background-size: auto 190px;
   background-position: center;
   background-color: rgba(0, 0, 0, 0);
@@ -110,7 +110,7 @@ body
   
   z-index: 99;
   overflow: hidden;
-  background-image: url('/img/nav/nav_magenta.png');
+  background-image: url('/img/nav/bg/magenta.png');
   background-size: auto 135px;
   background-position: center;
   background-color: rgba(0, 0, 0, 0);
