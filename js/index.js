@@ -49,7 +49,7 @@ function updateSource(source){
     case "Title":
       src=(ORIENTATION === "Landscape" ? "/title.html": "/title.html");
       document.getElementById("Title").innerHTML = "Invasive Website";
-      document.getElementById('Navbar').style.backgroundImage = "url(\"/img/nav/nav_magenta.png\")";
+      document.getElementById('Navbar').style.backgroundImage = "url(\"/img/nav/magenta.png\")";
       document.getElementById("HomePic").style.backgroundColor = background_color;
       document.getElementById("HomePic").style.boxShadow = box_shadow;
       deactivateArrows();
@@ -57,7 +57,7 @@ function updateSource(source){
     case "Art":
       src=(ORIENTATION === "Landscape" ? "/art.html": "/art.html");
       document.getElementById("Title").innerHTML = "Invasive Artworks";
-      document.getElementById('Navbar').style.backgroundImage = "url(\"/img/nav/nav_purple.png\")";
+      document.getElementById('Navbar').style.backgroundImage = "url(\"/img/nav/purple.png\")";
       document.getElementById("ArtPic").style.backgroundColor = background_color;
       document.getElementById("ArtPic").style.boxShadow = box_shadow;
       activateArrow("ArrowDown");
@@ -65,7 +65,7 @@ function updateSource(source){
     case "Community":
       src=(ORIENTATION === "Landscape" ? "/community.html": "/community.html");
       document.getElementById("Title").innerHTML = "Invasive Community";
-      document.getElementById('Navbar').style.backgroundImage = "url(\"/img/nav/nav_cyan.png\")";
+      document.getElementById('Navbar').style.backgroundImage = "url(\"/img/nav/cyan.png\")";
       document.getElementById("CommunityPic").style.backgroundColor = background_color;
       document.getElementById("CommunityPic").style.boxShadow = box_shadow;
       activateArrow("ArrowDown");
@@ -73,7 +73,7 @@ function updateSource(source){
     case "Writing":
       src=(ORIENTATION === "Landscape" ? "/writing.html": "/writing.html");
       document.getElementById("Title").innerHTML = "Invasive Writing";
-      document.getElementById('Navbar').style.backgroundImage = "url(\"/img/nav/nav_blue.png\")";
+      document.getElementById('Navbar').style.backgroundImage = "url(\"/img/nav/blue.png\")";
       document.getElementById("WritingPic").style.backgroundColor = background_color;
       document.getElementById("WritingPic").style.boxShadow = box_shadow;
       deactivateArrows();
@@ -81,7 +81,7 @@ function updateSource(source){
     case "Thoughts":
       src=(ORIENTATION === "Landscape" ? "/thoughts.html": "/thoughts.html");
       document.getElementById("Title").innerHTML = "Invasive Thoughts";
-      document.getElementById("Navbar").style.backgroundImage = "url('img/nav/nav_yellow.png')";
+      document.getElementById("Navbar").style.backgroundImage = "url('img/nav/yellow.png')";
       document.getElementById("ThoughtsPic").style.backgroundColor = background_color;
       document.getElementById("ThoughtsPic").style.boxShadow = box_shadow;
       activateArrow("ArrowDown");
@@ -89,7 +89,7 @@ function updateSource(source){
     case "Accretion":
       src=(ORIENTATION === "Landscape" ? "/accretion.html": "/accretion.html");
       document.getElementById("Title").innerHTML = "Invasive Accretion";
-      document.getElementById('Navbar').style.backgroundImage = "url(\"/img/nav/nav_coral.png\")";
+      document.getElementById('Navbar').style.backgroundImage = "url(\"/img/nav/coral.png\")";
       document.getElementById("AccretionPic").style.backgroundColor = background_color;
       document.getElementById("AccretionPic").style.boxShadow = box_shadow;
       deactivateArrows();
@@ -97,7 +97,7 @@ function updateSource(source){
     case "Runoff":
       src=(ORIENTATION === "Landscape" ? "/runoff.html": "/runoff.html");
       document.getElementById("Title").innerHTML = "Invasive Runoff";
-      document.getElementById('Navbar').style.backgroundImage = "url(\"/img/nav/nav_orange.png\")";
+      document.getElementById('Navbar').style.backgroundImage = "url(\"/img/nav/orange.png\")";
       document.getElementById("RunoffPic").style.backgroundColor = background_color;
       document.getElementById("RunoffPic").style.boxShadow = box_shadow;
       activateArrow("ArrowDown");
